@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "source .env && vercel --token  $VERCEL_TOKEN  --prod --confirm"
+    "deploy": "vercel --token  $VERCEL_TOKEN  --prod --confirm",
+    "echo": "echo $VERCEL_TOKEN"
   },
   "dependencies": {
     "@types/node": "18.15.0",
